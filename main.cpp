@@ -2,6 +2,8 @@
 
 using namespace std;
 
+int add(int a, int b);
+
 void say(string s);
 
 int main()
@@ -17,4 +19,9 @@ int main()
 void say(string s)
 {
     cout << s << endl;
+}
+
+int add(int a, int b)
+{
+    return a + b;
 }
